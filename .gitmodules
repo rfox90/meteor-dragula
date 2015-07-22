@@ -1,0 +1,3 @@
+[submodule "dragula"]
+	path = dragula
+	url = https://github.com/bevacqua/dragula.git
