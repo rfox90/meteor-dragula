@@ -1,8 +1,8 @@
 Package.describe({
   summary: 'Dragula - Drag and drop so simple it hurts, packaged for meteor',
   name: 'ahref:dragula',
-  version: '1.0.1',
-  git:'https://github.com/rfox90/dragula'
+  version: '1.0.2',
+  git:'https://github.com/rfox90/meteor-dragula'
 });
 
 
