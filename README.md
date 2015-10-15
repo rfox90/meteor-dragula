@@ -46,6 +46,8 @@ git submodule update
 ```
 
 #Changelog
+## 1.0.5
+  * Upgrade dragular 3.5.1
 
 ## 1.0.4
   * Update Dragula to version 3.0.7
