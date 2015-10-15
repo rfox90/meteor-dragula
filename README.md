@@ -47,11 +47,14 @@ git submodule update
 
 #Changelog
 
-## 1.0.2
-	* Update git url to not 404
+## 1.0.4
+  * Update Dragula to version 3.0.7
 
-## 1.0.1 
-	* Initial release to Atmosphere
+## 1.0.2
+  * Update git url to not 404
+
+## 1.0.1
+  * Initial release to Atmosphere
 
 
 
