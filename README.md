@@ -57,6 +57,7 @@ Check the comments in `package.browserify.js` for more info
 ## 3.5.4
   * Started Mirroring Dragula version numbers from NPM for clarity. 
   * Swapped out from a submodule loading to cosmos:browserify
+
 ## 1.0.6
   * ~~Upgrade dragular 3.5.4~~
 
