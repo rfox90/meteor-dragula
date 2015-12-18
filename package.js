@@ -12,5 +12,5 @@ Npm.depends({
 Package.onUse(function (api) {
 	api.use(['cosmos:browserify@0.9.2'], ['client']);
 
-	api.add_files(['package.browserify.js','dragula/dist/dragula.css'], ['client']);
+	api.add_files(['package.browserify.js','./.npm/package/node_modules/dragula/dist/dragula.min.css'], ['client']);
 });
