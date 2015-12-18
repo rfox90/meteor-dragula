@@ -7,7 +7,7 @@ if (Meteor.isClient) {
 		}
 	});
 	Template.dragList.onRendered(function(){
-		dragula([document.querySelector('#left1'), document.querySelector('#right1')]);
+		dragula([document.getElementById('left1'), document.getElementById('right1')]);
 	});
 }
 

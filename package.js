@@ -5,7 +5,13 @@ Package.describe({
   git:'https://github.com/rfox90/meteor-dragula'
 });
 
+Npm.depends({
+  dragula: "3.5.4"
+});
 
 Package.onUse(function (api) {
-	api.add_files(['dragula/dist/dragula.css','dragula/dist/dragula.js'], ['client']);
+	api.use(['cosmos:browserify@0.9.2'], ['client']);
+	
+	api.add_files(['package.browserify.js','dragula/dist/dragula.css'], ['client']);
+	//api.export('dragula','client');
 });
